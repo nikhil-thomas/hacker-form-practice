@@ -1,0 +1,23 @@
+{
+  "name": "01_regular-expressions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "test": {
+      "patterns": [
+        "."
+      ],
+      "extensions": "sh"
+    }
+  },
+  "scripts": {
+    "test": "./t.sh",
+    "watch": "npm-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-watch": "^0.7.0"
+  }
+}
