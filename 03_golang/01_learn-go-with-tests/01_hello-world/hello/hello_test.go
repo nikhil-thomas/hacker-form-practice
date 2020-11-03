@@ -47,3 +47,4 @@ func assertCorrectMessage(t *testing.T, want, got string) {
 		t.Errorf("want: %s, got: %s", want, got)
 	}
 }
+
